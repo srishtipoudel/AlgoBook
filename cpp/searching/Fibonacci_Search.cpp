@@ -7,7 +7,6 @@ using namespace std ;
 int min(int x, int y) {
      return (x<=y)? x : y;
 }
-
 /* Returns index of x if present, else returns -1 */
 int fibMonaccianSearch(int arr[], int x, int n)
 {
@@ -67,7 +66,6 @@ int fibMonaccianSearch(int arr[], int x, int n)
 	/*element not found. return -1 */
 	return -1;
 }
-
 /* driver function */
 int main(void)
 {
